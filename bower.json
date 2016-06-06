@@ -1,0 +1,19 @@
+{
+  "name": "gator-dev",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Node website builder with Express, Gulp, and Poet",
+  "main": "app.js",
+  "authors": [
+    "swamper"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}

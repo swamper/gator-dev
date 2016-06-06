@@ -24,7 +24,7 @@ Clone the repo:
 
 and run:
 
-    npm install
+    npm install && bower install
 
 ## Usage
 
