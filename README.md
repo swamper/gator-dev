@@ -62,7 +62,7 @@ Default gulp task is "build", run with:
 
 The app will serve up the blog on:
 
-http://localhost:3000
+[http://localhost:3000](http://localhost:3000)
 
 The default Poet examples are already set up to serve from "./views".
 
