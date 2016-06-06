@@ -20,7 +20,7 @@ that lets you build a blog from scratch without a lot of head scratching.
 
 Clone the repo:
 
-    git clone
+    git clone https://github.com/swamper/gator-dev.git
 
 and run:
 
