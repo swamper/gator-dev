@@ -62,7 +62,7 @@ Default gulp task is "build", run with:
 
 The app will serve up the blog on:
 
-[http://localhost:3000](http://localhost:3000)
+[http://localhost:3001](http://localhost:3001)
 
 The default Poet examples are already set up to serve from "./views".
 
@@ -74,6 +74,10 @@ To start the app run:
 Page error handling, compression, and some production level hardening for express are included in "app.js" and "./bin/www".
 
 ### Poet
+
+Poet in the ./lib directory has been modified to run pug instead of jade. Cloned poet and modified it to run pug and passed all unit tests, then copied over the relevant parts. Do not use Poet as provided in package.json as it will not work. May have to run a fork...
+
+https://github.com/jsantell/poet/issues/121
 
 See the Poet [documentation](https://jsantell.github.io/poet/) for how to use Poet.
 
@@ -96,6 +100,11 @@ Bootstrap v4 has flexbox and mixins. What more could you want...
 Bear in mind this is done for personal use so it is very opinionated.
 
 The app is built so as if there is something that needs to be changed as in the css framework, such as using something besides Bootstrap, you just change it out with whatever framework and make the appropriate edits to the source files.
+
+## Version
+
+### v0.2.0
+  - Replaced jade with pug. Modified Poet in the ./lib directory to use pug instead of jade. Updated npm dependencies. Updated Bootstrap v4 and Font-Awesome in ./src/.
 
 ## Tests
 

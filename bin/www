@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var app = require('../app');
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 // Remove x-powered-by header (doesn't let clients know we are using Express)
 app.disable('x-powered-by');

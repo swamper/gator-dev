@@ -1,7 +1,7 @@
 {
   "name": "gator-dev",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node website builder with Express, Gulp, and Poet",
   "main": "app.js",
   "authors": [
@@ -14,6 +14,6 @@
     "src/bower_components"
   ],
   "dependencies": {
-    "jquery": "^2.2.4"
+    "jquery": "^3.2.1"
   }
 }
